@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manchitas - Ropa y accesorios para mascotas</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #fff8e1, #ffe0b2);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff6f00, #ff9800);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      background: #fff3e0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 15px 10px;
+    }
+
+    nav a {
+      background: #ff7043;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    nav a:hover {
+      background: #d84315;
+      transform: scale(1.05);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .producto {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: translateY(-5px);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .contenido {
+      padding: 20px;
+    }
+
+    .contenido h3 a {
+      color: #ff6f00;
+      text-decoration: none;
+    }
+
+    .contenido p {
+      margin: 10px 0 0;
+      line-height: 1.5;
+    }
+
+    footer {
+      background: linear-gradient(90deg, #ff6f00, #ff9800);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 1em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🐾 Manchitas</h1>
+  <p>Ropa, camas y juguetes para consentir a tu mascota</p>
+</header>
+
+<nav>
+  <a href="https://www.google.com/search?q=articulos+para+mascotas" target="_blank">Todos</a>
+  <a href="https://www.google.com/search?q=ropa+para+perros" target="_blank">Ropa para Perros</a>
+  <a href="https://www.google.com/search?q=camas+para+perros" target="_blank">Camas para Perros</a>
+  <a href="https://www.google.com/search?q=juguetes+para+mascotas" target="_blank">Juguetes</a>
+</nav>
+
+<section class="productos">
+  <div class="producto">
+    <a href="https://www.google.com/search?q=vestido+floral+para+perros" target="_blank">
+      <img src="https://images.unsplash.com/photo-1601758123927-196d5c239ca1?auto=format&fit=crop&w=800&q=80" alt="Ropa para perros">
+    </a>
+    <div class="contenido">
+      <h3><a href="https://www.google.com/search?q=vestido+floral+para+perros" target="_blank">Vestido Floral</a></h3>
+      <p>Suave, cómodo y perfecto para paseos. Tallas: S, M, L.</p>
+    </div>
+  </div>
+
+  <div class="producto">
+    <a href="https://www.google.com/search?q=cama+deluxe+para+mascotas" target="_blank">
+      <img src="https://images.unsplash.com/photo-1601758174501-1ec2d85e14c6?auto=format&fit=crop&w=800&q=80" alt="Cama para mascotas">
+    </a>
+    <div class="contenido">
+      <h3><a href="https://www.google.com/search?q=cama+deluxe+para+mascotas" target="_blank">Cama Deluxe</a></h3>
+      <p>Hecha con materiales suaves y lavables. Tamaño mediano.</p>
+    </div>
+  </div>
+
+  <div class="producto">
+    <a href="https://www.google.com/search?q=pelota+con+sonido+para+mascotas" target="_blank">
+      <img src="https://images.unsplash.com/photo-1593132920595-4de41c4a2cdb?auto=format&fit=crop&w=800&q=80" alt="Juguete">
+    </a>
+    <div class="contenido">
+      <h3><a href="https://www.google.com/search?q=pelota+con+sonido+para+mascotas" target="_blank">Pelota con sonido</a></h3>
+      <p>Ideal para jugar y estimular a tu mascota. Colores surtidos.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Manchitas - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
